@@ -12,11 +12,12 @@ const App = () => {
         <div className='first'>
           <h1 className='head'>Transparent</h1>
           <p className='tail'>STAY IN THE KNOW</p>
-          <div className='icon-group'>              
-            <img src={f} alt='icon f'/>
-            <img src={s} alt='icon s'/>
-            <img src={t} alt='icon t'/>
+          <div className="icons">
+            <img src={f} alt="icon1" className="w-5 h-5" />
+            <img src={s} alt="icon2" className="w-5 h-5" />
+            <img src={t} alt="icon3" className="w-5 h-5" />
           </div>
+
         </div>
 
         <div className='second'>
